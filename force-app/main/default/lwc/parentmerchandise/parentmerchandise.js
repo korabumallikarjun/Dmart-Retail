@@ -7,8 +7,6 @@ export default class parentmerchandise extends LightningElement {
     }
     handleaccount(event){
         this.searchDetail=[];
-        
-        
         try{
             event.detail.forEach(x => {
                 var accData = {
